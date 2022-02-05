@@ -4,8 +4,8 @@ import paquete.Jugador;
 public class Main {
     public static void main(String[] args) {
 
-        Jugador j;
-        j = new Jugador();
+        JugadorMessi j;
+        j = new JugadorMessi();
         System.out.println(j.obtenerNombreJugador());
     }
 }

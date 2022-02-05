@@ -72,4 +72,10 @@ public class Jugador {
     public void celebracion(){
         System.out.println("Siuuuuuuuuuuuu");
     }
+
+}
+class JugadorMessi extends Jugador{
+    public JugadorMessi(){
+        this.nombreJugador = "Liones Messi";
+    }
 }
